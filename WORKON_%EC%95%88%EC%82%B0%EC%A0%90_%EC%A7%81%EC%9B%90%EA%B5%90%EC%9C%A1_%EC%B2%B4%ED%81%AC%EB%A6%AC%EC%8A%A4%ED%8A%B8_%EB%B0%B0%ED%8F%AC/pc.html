@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#142f4b"><title>빌라드지디 안산점 | PC 주차 운영 매뉴얼</title><style>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#142f4b"><title>빌라드지디 안산점 | PC 현장 운영 메뉴얼</title><style>
 :root{--navy:#132a43;--navy2:#1c466d;--blue:#276aa5;--line:#dce6f0;--text:#172b41;--muted:#677c91;--bg:#eff4f8;--white:#fff;--pale:#edf5fd}
 *{box-sizing:border-box}html,body{margin:0}html{font-family:Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;color:var(--text)}body{background:var(--bg);font-size:14px;line-height:1.6}button{font:inherit;cursor:pointer}button:focus-visible{outline:3px solid #f5ae34;outline-offset:2px}button:disabled{opacity:.42;cursor:not-allowed}
 .brand-mark{display:grid;place-items:center;width:30px;height:30px;flex:0 0 30px;border-radius:9px;background:#fa6142;color:white;font-size:11px;font-weight:900}
@@ -84,7 +84,7 @@ html,body{height:100%;overflow:hidden}
 body[data-mode="mobile"] .hotspot{width:32px;height:32px}
 
 
-/* VILLARD GD / INTERNAL FIELD MANUAL — restrained operational interface */
+/* FLAT / INTERNAL FIELD MANUAL — restrained operational interface */
 :root{
   --navy:#1d303c; --navy2:#243d4d; --blue:#526b7c;
   --line:#d9dee0;--text:#26343b;--muted:#79868d;
@@ -189,8 +189,11 @@ html,body{height:100%;overflow:hidden}
 .hotspot::before{width:8px;height:8px;}
 body[data-mode="mobile"] .hotspot{width:16px;height:16px;min-width:16px;min-height:16px;}
 
+
+.brand-mark{width:44px!important;min-width:44px!important;flex:0 0 44px!important;
+  border-radius:2px!important;font-size:12px!important;letter-spacing:-.03em!important;}
 </style></head>
-<body data-mode="desktop"><header class="desktop-header"><div class="header-brand"><div class="brand-mark">VG</div><div><div class="brand-caption">VILLARD GD  /  안산점  /  PARKING</div><div class="brand-title">주차 운영 매뉴얼</div></div></div><div class="header-actions"><b>지도에서 위치를 선택하면 업무 기준을 볼 수 있습니다</b><br>현장 운영 기준 · 2026.10.26</div></header>
+<body data-mode="desktop"><header class="desktop-header"><div class="header-brand"><div class="brand-mark">플랫</div><div><div class="brand-caption">빌라드지디 / 안산점 /</div><div class="brand-title">현장 운영 메뉴얼</div></div></div><div class="header-actions"><b>지도에서 위치를 선택하면 업무 기준을 볼 수 있습니다</b><br>현장 운영 기준 · 2026.10.26</div></header>
 <main class="desktop-workspace">
  <section class="panel map-panel" aria-label="현장 지도">
   <div class="panel-head"><div><strong>현장 포지션 지도</strong><span class="micro">주차장 7곳 · 안내 포지션 10곳</span></div><div class="map-control-group"><div class="map-layer-switch" role="group" aria-label="지도 마커 선택"><button type="button" data-layer-btn="hotspots" aria-pressed="true">안내 포지션</button><button type="button" data-layer-btn="places" aria-pressed="false">주차장</button></div><div class="map-tools"><button type="button" class="tool" data-zoom="out" aria-label="지도 축소">−</button><button type="button" class="tool" data-zoom="in" aria-label="지도 확대">+</button><button type="button" class="tool text" data-zoom="reset">전체</button></div></div></div>
@@ -350,3 +353,5 @@ window.addEventListener('load',fitMap);
 if('ResizeObserver' in window)new ResizeObserver(()=>fitMap()).observe(canvas);
 render();requestAnimationFrame(fitMap);
 </script><a href="staff.html" id="staff-entry" style="position:fixed;right:16px;bottom:16px;z-index:99999;background:#173d63;color:#fff;text-decoration:none;padding:12px 17px;border-radius:10px;font-weight:800;box-shadow:0 5px 18px #11223344;font-family:inherit;font-size:13px">직원 로그인 · 교육 / 체크리스트 →</a></body></html>
+
+<!-- 플랫 명칭 통일 -->
